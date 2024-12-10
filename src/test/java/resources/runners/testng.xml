@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="testsuite" verbose="1">
+    <listeners>
+        <listener class-name="com.orangehrmlive.demo.customelistners.CustomListeners"></listener>
+        <listener class-name="com.orangehrmlive.demo.customelistners.CustomListeners"></listener>
+    </listeners>
+    <test name="UsersTest">
+        <classes>
+            <class name="com.orangehrmlive.demo.testsuit.UsersTest"></class>
+            <class name="com.orangehrmlive.demo.testsuit.LoginTest"></class>
+        </classes>
+    </test>
+</suite>
